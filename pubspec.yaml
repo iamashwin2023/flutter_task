@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get: ^4.6.6
+  flutter_svg: ^2.0.10+1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -59,10 +61,44 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
-
+  assets:
+    - assets/home.svg
+    - assets/devices.svg
+    - assets/library.svg
+    - assets/music.svg
+    - assets/profile.svg
+    - assets/spotify.png
+    - assets/applemusic.png
+    - assets/rightarrow.svg
+    - assets/soundcloud.png
+    - assets/heart.svg
+    - assets/search.svg
+    - assets/chennai.png
+    - assets/comfortplace.png
+    - assets/homeland.png
+    - assets/person1.png
+    - assets/person2.png
+    - assets/person3.png
+    - assets/person4.png
+    - assets/person5.png
+    - assets/person6.png
+    - assets/Ellipse 11.svg
+    - assets/Ellipse 12.svg
+    - assets/Ellipse 13.svg
+    - assets/profile.png
+    - assets/profiledetailes.svg
+    - assets/addfriends.svg
+    - assets/notification.svg
+    - assets/privacy.svg
+    - assets/profilepic.png
+    - assets/missingthehomelandpic.png
+    - assets/comfortplacepic.png
+    - assets/setting.svg
+    - assets/Rectangle 5 (1).png
+    - assets/Rectangle 5 (2).png
+    - assets/Rectangle 5 (3).png
+    - assets/Rectangle 5 (4).png
+    - assets/Rectangle 5.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
