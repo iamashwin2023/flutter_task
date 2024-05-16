@@ -7,7 +7,7 @@ class Timeline extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       
-      width: 15, // Adjust the width as needed
+      width: 15, 
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -30,9 +30,8 @@ class DottedLinePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final Paint paint = Paint()
-      ..color = Color(0xFF46624C) // Change this to your desired color
-      ..strokeWidth = 1; // Change this to your desired line thickness
-
+      ..color = Color(0xFF46624C) 
+      ..strokeWidth = 1; 
     double dashHeight = 5, dashSpace = 5;
     double startY = 0;
 

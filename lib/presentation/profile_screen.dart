@@ -67,7 +67,7 @@ class ProfileScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 _buildProfileOption(
-                  iconPath: 'assets/privacy .svg',
+                  iconPath: 'assets/privacy.svg',
                   title: 'Privacy settings',
                 ),
                 const SizedBox(height: 10),

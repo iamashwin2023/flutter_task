@@ -2,13 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class BottomNavigationWidget extends StatefulWidget {
-  final List<String> routeNames;
   final int selectedIndex;
   final ValueChanged<int> onItemTapped;
 
   BottomNavigationWidget({
     Key? key,
-    required this.routeNames,
     required this.selectedIndex,
     required this.onItemTapped,
   }) : super(key: key);
@@ -19,14 +17,13 @@ class BottomNavigationWidget extends StatefulWidget {
 
 class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
   List<Color> itemColors =
-      List.filled(5, Color(0xFF74533B)); // List to store colors of SVG icons
+      List.filled(5, Color(0xFF74533B)); 
 
   @override
   void initState() {
     super.initState();
-    // Initialize all item colors to black
     itemColors[widget.selectedIndex] =
-        Colors.white; // Set the initial selected item color
+        Colors.white; 
   }
 
   @override

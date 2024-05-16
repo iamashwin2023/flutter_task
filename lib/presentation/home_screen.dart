@@ -313,12 +313,12 @@ class _HomeScreenState extends State<HomeScreen> {
             BoxShadow(
               color: const Color.fromARGB(255, 184, 184, 184),
               blurRadius: 5.0,
-              offset: Offset(3, 3), // Right and bottom shadow
+              offset: Offset(3, 3), 
             ),
             BoxShadow(
               color: const Color.fromARGB(255, 184, 184, 184),
               blurRadius: 5.0,
-              offset: Offset(-3, 3), // Left and bottom shadow
+              offset: Offset(-3, 3), 
             ),
           ],
           color: deviceBackgroundColor,

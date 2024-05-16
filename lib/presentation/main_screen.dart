@@ -33,13 +33,6 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       body: _screens[_selectedIndex],
       bottomNavigationBar: BottomNavigationWidget(
-        routeNames: [
-          '/home',
-          '/library',
-          '/devices',
-          '/music',
-          '/profile'
-        ],
         selectedIndex: _selectedIndex,
         onItemTapped: _onItemTapped,
       ),
